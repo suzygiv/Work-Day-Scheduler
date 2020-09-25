@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-  $("save").on("click", function() {
+  $(".save").on("click", function() {
     var value = $(this).siblings(".entry").val();
     var time = $(this).parent().attr("id");
 
