@@ -22,7 +22,7 @@ h1 {
     background-color: transparent;
     color: black;
     border-radius: 0;
-    border-bottom: 5px solid tan;
+    border-bottom: 5px solid black;
   }
   
   .description{
@@ -65,7 +65,7 @@ h1 {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: lightblue;
+    background-color: aliceblue;
     color: black;
   }
   
