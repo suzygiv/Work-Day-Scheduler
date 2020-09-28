@@ -43,7 +43,7 @@ $(document).ready(function(){
   $("#hour-10 .entry").val(localStorage.getItem("hour-10"));
   $("#hour-11 .entry").val(localStorage.getItem("hour-11"));
   $("#hour-12 .entry").val(localStorage.getItem("hour-12"));
-  $("#hour-13 .entry").val(localStorage.getItem("hour-12"));
+  $("#hour-13 .entry").val(localStorage.getItem("hour-13"));
   $("#hour-14 .entry").val(localStorage.getItem("hour-14"));
   $("#hour-15 .entry").val(localStorage.getItem("hour-15"));
   $("#hour-16 .entry").val(localStorage.getItem("hour-16"));
