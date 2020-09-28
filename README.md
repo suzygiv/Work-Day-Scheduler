@@ -1,4 +1,7 @@
-# Work-Day-Scheduler
+# Work Day Scheduler
+
+## Link to Work Day Scheduler
+https://suzygiv.github.io/Work-Day-Scheduler/
 
 ## Link to Work Day Scheduler
 https://suzygiv.github.io/Work-Day-Scheduler/
