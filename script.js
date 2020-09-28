@@ -12,11 +12,11 @@ $(document).ready(function(){
       // get current number of hours
       var currentHour = moment().hours();
   
-   // loop over time blocks
+   // Loop over time blocks
    $(".time-block").each(function() {
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
   
-      // check if we've moved past this time
+      // Color coding dependent upon hour 
       if (blockHour < currentHour) {
         $(this).addClass("past");
       } 
@@ -34,10 +34,10 @@ $(document).ready(function(){
   
   hourUpdater();
   
-  // set up interval to check if current time needs to be updated
+  // Set up interval to check if current time needs to be updated
   var interval = setInterval(hourUpdater, 15000);
   
-  // load any saved data from localStorage
+  // Load any saved data from localStorage
   $("#hour-8 .entry").val(localStorage.getItem("hour-8"));
   $("#hour-9 .entry").val(localStorage.getItem("hour-9"));
   $("#hour-10 .entry").val(localStorage.getItem("hour-10"));
@@ -49,6 +49,6 @@ $(document).ready(function(){
   $("#hour-16 .entry").val(localStorage.getItem("hour-16"));
   $("#hour-17 .entry").val(localStorage.getItem("hour-17"));
   
-  // display current day on page
+  // Display current day on page
   $("#currentDay").text(moment().format("dddd, MMMM Do"));
   });
