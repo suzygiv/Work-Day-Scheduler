@@ -17,7 +17,7 @@ When the user inputs a new event into the time block, the event will be saved in
 ![Main Page](https://github.com/suzygiv/Work-Day-Scheduler/blob/master/Assets/WorkDayScheduler.PNG)
 
 ## Functionality
-The app utilizes HTML, CSS, jQuery and Moment.js. jQuery was used to select and mainpulate the DOM. Local storage was used to save event data. Moment.js was used to create the time responsiveness in the page. In addition to the above, the dynamic CSS code is powered by Bootstrap and Google fonts.
+The app utilizes HTML, CSS, jQuery and Moment.js. jQuery was used to select and mainpulate the DOM. Local storage was used to save event data. Moment.js was used to create the time responsiveness in the page. In addition to the above, the dynamic CSS code is powered by Bootstrap, Font Awesome, and Google fonts.
 
 
 

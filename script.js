@@ -1,15 +1,16 @@
 
 $(document).ready(function(){
+    // Once Save Button is clicked, the entry text and time are saved in local storage
     $(".saveBtn").on("click", function() {
       var value = $(this).siblings(".entry").val();
       var time = $(this).parent().attr("id");
   
-      // save in localStorage
+      // Save in localStorage
     localStorage.setItem(time, value);
     });
   
     function hourUpdater() {
-      // get current number of hours
+      // Get current hour
       var currentHour = moment().hours();
   
    // Loop over time blocks
